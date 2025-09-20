@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Slideshow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Black Hole -->
+  <div class="black-hole">
+    <div class="tunnel">
+      <div class="ring"></div><div class="ring"></div><div class="ring"></div>
+      <div class="ring"></div><div class="ring"></div><div class="ring"></div>
+      <div class="ring"></div><div class="ring"></div><div class="ring"></div>
+      <div class="ring"></div>
+    </div>
+    <div class="aura"></div>
+    <div class="overlay"></div>
+  </div>
+
+  <div class="container">
+    <div class="slides" id="slides">
+
+      <!-- Slide 1 -->
+      <div class="slide">
+        <video class="cover" autoplay loop muted playsinline>
+          <source src="https://files.catbox.moe/c4nw3c.mp4" type="video/mp4">
+        </video>
+        <div class="title">Hi Bro?</div>
+        <img class="extra-photo" src="https://files.catbox.moe/acq3xh.jpg" alt="Foto Tambahan">
+        <iframe src="https://open.spotify.com/embed/track/1ZPszVMluDbqsEx9MJTjJd"
+                frameborder="0"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+                loading="lazy"></iframe>
+        <div class="signature">ZimeMajesty</div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="slide">
+        <video class="cover" autoplay loop muted playsinline>
+          <source src="https://files.catbox.moe/c4nw3c.mp4" type="video/mp4">
+        </video>
+        <div class="title">Playlist Favorit</div>
+        <img class="extra-photo" src="https://files.catbox.moe/acq3xh.jpg" alt="Foto Tambahan">
+        <iframe src="https://open.spotify.com/embed/playlist/4WDx8GQVfJL1sV3fEYUQwZ"
+                frameborder="0"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+                loading="lazy"></iframe>
+        <div class="signature">ZimeMajesty</div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="slide">
+        <video class="cover" autoplay loop muted playsinline>
+          <source src="https://files.catbox.moe/c4nw3c.mp4" type="video/mp4">
+        </video>
+        <div class="title">Track Ketiga</div>
+        <img class="extra-photo" src="https://files.catbox.moe/acq3xh.jpg" alt="Foto Tambahan">
+        <iframe src="https://open.spotify.com/embed/track/5R9FQXymzyhxjAYAkdbq5Q"
+                frameborder="0"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+                loading="lazy"></iframe>
+        <div class="signature">ZimeMajesty</div>
+      </div>
+
+      <!-- Slide 4 -->
+      <div class="slide">
+        <video class="cover" autoplay loop muted playsinline>
+          <source src="https://files.catbox.moe/c4nw3c.mp4" type="video/mp4">
+        </video>
+        <div class="title">Track Keempat</div>
+        <img class="extra-photo" src="https://files.catbox.moe/acq3xh.jpg" alt="Foto Tambahan">
+        <iframe src="https://open.spotify.com/embed/track/5EIjpM1B1VsLoKvv2iwd0P"
+                frameborder="0"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+                loading="lazy"></iframe>
+        <div class="signature">ZimeMajesty</div>
+      </div>
+
+      <!-- Slide 5 -->
+      <div class="slide">
+        <video class="cover" autoplay loop muted playsinline>
+          <source src="https://files.catbox.moe/c4nw3c.mp4" type="video/mp4">
+        </video>
+        <div class="title">Track Kelima</div>
+        <img class="extra-photo" src="https://files.catbox.moe/acq3xh.jpg" alt="Foto Tambahan">
+        <iframe src="https://open.spotify.com/embed/track/6vlNWoIrFDRv36L4C2cMDy"
+                frameborder="0"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture"
+                loading="lazy"></iframe>
+        <div class="signature">ZimeMajesty</div>
+      </div>
+
+    </div>
+
+    <!-- Tombol Navigasi -->
+    <div class="buttons">
+      <button class="btn" onclick="prevSlide()">&#10094;</button>
+      <button class="btn" onclick="nextSlide()">&#10095;</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+  </html>
